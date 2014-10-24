@@ -35,49 +35,82 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">Odd-e</a>
+          <a class="navbar-brand" href="#"><img class="logo" src="img/odd-e.png" alt=""></a>
         </div>
       </div>
     </div>
 
     <!-- Main jumbotron for a primary marketing message or call to action -->
     <div class="jumbotron">
-      <div class="container">
-        <h1>Odd-e</h1>
-        <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
-        <p><a class="btn btn-primary btn-lg" role="button">Learn more &raquo;</a></p>
+      <div class="container desc">
+        <div class="row">
+          <h1>Odd-e</h1>
+          <p>Odd-e focuses on building products better and helping others to do so.</p>
+        </div>
       </div>
     </div>
 
     <div class="container">
       <!-- Example row of columns -->
-      <div class="row">
-        <div class="col-md-4">
-          <h2>Heading</h2>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+      <section id="customers">
+        <div class="row text-center">
+          <h2>我们的客户</h2>
+          <br/>
         </div>
-        <div class="col-md-4">
-          <h2>Heading</h2>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-       </div>
-        <div class="col-md-4">
-          <h2>Heading</h2>
-          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        <div class="row text-center">
+          <img class="customer-logo" src="img/customers/ge.png" alt="通用电气">
+          <img class="customer-logo" src="img/customers/dianping.png" alt="大众点评">
+          <img class="customer-logo" src="img/customers/pingan.png" alt="中国平安">
+          <img class="customer-logo" src="img/customers/advantest.gif" alt="爱德万">
+          <img class="customer-logo" src="img/customers/ef.jpg" alt="英孚教育">
+          <img class="customer-logo" src="img/customers/ericsson.png" alt="爱立信">
+          <img class="customer-logo" src="img/customers/alu.png" alt="阿尔卡特朗讯">
+          <img class="customer-logo" src="img/customers/autodesk.png" alt="Autodesk">
+          <img class="customer-logo" src="img/customers/icbc.png" alt="工商银行">
         </div>
-      </div>
+      </section>
+
+      <section id="recommedations">
+        <div class="row text-center">
+          <h2>他们这么说...</h2>
+          <br/>
+        </div>
+        <div class="row text-center">
+          <blockquote>For 50 years, WWF has been protecting the future of nature. The world's leading conservation organization, WWF works in 100 countries and is supported by 1.2 million members in the United States and close to 5 million globally.</blockquote>
+          <blockquote>For 50 years, WWF has been protecting the future of nature. The world's leading conservation organization, WWF works in 100 countries and is supported by 1.2 million members in the United States and close to 5 million globally.</blockquote>
+          <blockquote>For 50 years, WWF has been protecting the future of nature. The world's leading conservation organization, WWF works in 100 countries and is supported by 1.2 million members in the United States and close to 5 million globally.</blockquote>
+          <blockquote>For 50 years, WWF has been protecting the future of nature. The world's leading conservation organization, WWF works in 100 countries and is supported by 1.2 million members in the United States and close to 5 million globally.</blockquote>
+          <blockquote>For 50 years, WWF has been protecting the future of nature. The world's leading conservation organization, WWF works in 100 countries and is supported by 1.2 million members in the United States and close to 5 million globally.</blockquote>
+        </div>
+      </section>
+
+      <section id="expertises">
+      </section>
+      
+      <section id="speaks">
+      </section>
+
+      <section id="members">
+      </section>
+
+      <section id="contact">
+      </section>
+
+      <section id="subscription">
+      </section>
 
       <hr>
 
       <footer>
         <p>&copy; Odd-e 2014</p>
       </footer>
-    </div> <!-- /container -->        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    </div>
+    <!-- /container -->        
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.1.min.js"><\/script>')</script>
 
         <script src="js/vendor/bootstrap.min.js"></script>
+        <script src="js/vendor/jquery.scrollmagic.min.js"></script>
 
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
@@ -87,7 +120,7 @@
             (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
             function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
             e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-            e.src='//www.google-analytics.com/analytics.js';
+            e.src='http://www.google-analytics.com/analytics.js';
             r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
             ga('create','UA-XXXXX-X');ga('send','pageview');
         </script>

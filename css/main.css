@@ -4,7 +4,14 @@
    Author's custom styles
    ========================================================================== */
 
+.logo {
+  max-height: 45px;
+}
 
+.customer-logo {
+  margin: 0px 28px 28px 0px;
+  max-height: 55px;
+}
 
 
 

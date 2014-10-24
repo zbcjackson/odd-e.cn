@@ -22,3 +22,9 @@
 }());
 
 // Place any jQuery/helper plugins in here.
+(function($){
+  $(function(){
+    var controller = new ScrollMagic();
+    var scene = new ScrollScene({duration: 100});
+  });
+})(jQuery);
